@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2713dbe0-fcca-4a2c-81a2-b0e446abb9fe">
+  <producedTypes>
+    <objectType typeId="2a0b157f-c508-4a1a-9b5d-346bcdc303aa" valueTypeId="d080e3ae-a98c-4284-8337-31ce8511539c"/>
+    <refType typeId="cffaef5d-b3cc-4493-9c86-5a04d36ec1b9" valueTypeId="75699ee6-48ad-4317-affa-9ac37d522793"/>
+    <selectionType typeId="9c822c50-8162-4b49-bc7f-b06c11d17484" valueTypeId="5ee4e330-3aef-4c12-a7f6-4d3a29447aae"/>
+    <listType typeId="2b62699d-c9b1-4fdb-8c94-e7cf9388a4ae" valueTypeId="fc9c8116-66f5-4c1d-8b94-a7e141173676"/>
+    <managerType typeId="ec48a040-cfbe-46da-b3bd-3e2e7f9e4d6e" valueTypeId="8685e102-9c82-4c46-b1e3-699e3c970921"/>
+  </producedTypes>
+  <name>Чат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Чат.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d6ee7519-4d32-4872-bdc0-62adaaf1d185">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8d7d890-e8db-404b-9572-5458c2ef22e0">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

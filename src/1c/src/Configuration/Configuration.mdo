@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32e28f8f-7594-483a-b869-1de9985dec63">
+  <name>EsbSeminarDemo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Esb seminar demo</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2746175f-39e2-4590-95b4-95b70a835421"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="94cff4f9-53a7-45b4-860f-fdadf7dea995"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7a5186ed-ac18-41fb-b23b-28067760934b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4dcefeed-7f45-4ef7-8672-31d1467f9735"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="fb7747ba-5aec-46b7-9446-c1bbbe972dc2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="aae32073-3ccc-450d-b2ff-cdd72c2bbd7b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d9a42dbb-bbe7-4431-b4c2-ff235c5cf995"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="cad166d0-6b9e-4cbf-80b7-2cb7ffa36282">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.КурьерскиеЗаявки</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ВнешнийПользователь</roles>
+  <commonModules>CommonModule.ВспомогательныйШина</commonModules>
+  <commonModules>CommonModule.КоннекторХТТП</commonModules>
+  <commonModules>CommonModule.КурьеркиеЗаявки</commonModules>
+  <commonModules>CommonModule.КурьерскиеЗаявкиИнтеграция</commonModules>
+  <httpServices>HTTPService.api</httpServices>
+  <scheduledJobs>ScheduledJob.ОбработкаОчередиИнтеграции</scheduledJobs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Курьеры</catalogs>
+  <documents>Document.КурьерскаяЗаявка</documents>
+  <enums>Enum.СтатусыКурьерскихЗаявок</enums>
+  <informationRegisters>InformationRegister.СтатусыКурьерскихЗаявок</informationRegisters>
+  <integrationServices>IntegrationService.КурьерскиеЗаявки</integrationServices>
+</mdclass:Configuration>

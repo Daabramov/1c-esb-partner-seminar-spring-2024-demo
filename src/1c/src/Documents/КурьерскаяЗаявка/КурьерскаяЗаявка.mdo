@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d74e99d7-9b0e-4331-96e3-e30ea824f430">
+  <producedTypes>
+    <objectType typeId="be2f7b85-39ce-40e3-9e24-8e672a0e743c" valueTypeId="a99c7e5b-dbe6-4765-b1bb-21bf5f723a90"/>
+    <refType typeId="c6472e33-9ec2-424f-b5a9-f26e32645e4e" valueTypeId="4e6d90e6-a5cc-48ff-8abf-8bf7f881ccef"/>
+    <selectionType typeId="46e58971-eb45-4cb6-822c-a26439823904" valueTypeId="1cfd33e5-5d91-4ab3-81d4-0abe3e02f486"/>
+    <listType typeId="e7b5d249-1973-4c07-81dc-131a6150cd43" valueTypeId="4512a345-c4b5-4dce-bd10-42c16e5f888d"/>
+    <managerType typeId="15d8552c-fda9-4a13-9ba5-d01ef511ef4e" valueTypeId="54a2a5f8-8271-46c3-89d9-53a36f95b107"/>
+  </producedTypes>
+  <name>КурьерскаяЗаявка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курьерская заявка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КурьерскаяЗаявка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КурьерскаяЗаявка.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="151f0c8d-ec7c-411c-88a6-fa37c986ebdb">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e40233e-c614-4dad-a2bf-93b70160cf3d">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bceaa980-ff14-4492-b968-a2dd2adbb64b">
+    <name>Курьер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Курьеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9cb1719-0ff9-427b-b7ff-48658a4f42b0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3d525480-86e9-4557-8062-4cd57fab6ea1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

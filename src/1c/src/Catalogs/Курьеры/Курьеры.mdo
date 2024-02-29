@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fae074a-c2d9-4da6-9d69-0a6d739f88ea">
+  <producedTypes>
+    <objectType typeId="e3f80e8f-154f-4e74-a47e-96bd5abae8eb" valueTypeId="38f2cc8b-469f-49de-96a9-b1f4a467b8ce"/>
+    <refType typeId="700e93f0-1159-4964-b934-b1d28c8512fa" valueTypeId="7922c241-e644-45a2-ae2a-2f6da698b0e4"/>
+    <selectionType typeId="dcabeaa4-be50-4b69-b3d5-017335646bc0" valueTypeId="b89c8cab-da30-4640-9c4e-dd465314388f"/>
+    <listType typeId="6d12b6a0-0d21-407e-9669-784105999107" valueTypeId="1346bbbd-8286-401e-bcab-a6be50c3ff9f"/>
+    <managerType typeId="d123decf-3b25-4017-aa5f-8ad09a1f6782" valueTypeId="8bc973bb-cc45-4473-bf5b-8146cf41c73d"/>
+  </producedTypes>
+  <name>Курьеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курьеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Курьеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Курьеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

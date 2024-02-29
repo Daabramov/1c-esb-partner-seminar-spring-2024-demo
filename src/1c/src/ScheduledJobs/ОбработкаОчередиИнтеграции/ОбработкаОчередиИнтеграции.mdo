@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcfd47ea-1b78-4482-94cf-eeb334ce0357">
+  <name>ОбработкаОчередиИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка очереди интеграции</value>
+  </synonym>
+  <methodName>CommonModule.ВспомогательныйШина.ОбработкаОчередиИнтеграции</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

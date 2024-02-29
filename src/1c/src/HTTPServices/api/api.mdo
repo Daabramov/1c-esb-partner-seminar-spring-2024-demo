@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f310ace-9056-4a06-aab7-c0541333e4aa">
+  <name>api</name>
+  <synonym>
+    <key>ru</key>
+    <value>Api</value>
+  </synonym>
+  <rootURL>api</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ff8dcf3f-8fa9-4513-83d0-811ffe6aaea6">
+    <name>courierTasks</name>
+    <synonym>
+      <key>ru</key>
+      <value>Courier tasks</value>
+    </synonym>
+    <template>/courier-tasks</template>
+    <methods uuid="a0022da9-41c3-4061-a6aa-011920ce722b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>courier_task_POST</handler>
+    </methods>
+    <methods uuid="468f0ddf-6f7f-49f6-bec1-44c57b619a5c">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>chat_messagesGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

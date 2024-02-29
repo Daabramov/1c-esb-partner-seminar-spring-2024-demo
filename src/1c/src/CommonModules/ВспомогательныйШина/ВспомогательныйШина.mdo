@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cf23590-a88c-4d19-9b6c-bfd75d396e70">
+  <name>ВспомогательныйШина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вспомогательный шина</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

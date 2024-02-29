@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f99eb2d0-fa0d-4011-aacc-93f14c276ca3">
+  <producedTypes>
+    <selectionType typeId="fe97efb6-9c8e-42ab-a3bd-bc2723f57575" valueTypeId="b9bb2ec8-8d8b-420d-9807-901a23a4bd20"/>
+    <listType typeId="1d1cc374-e059-4600-81a6-483e2f323e17" valueTypeId="4c5dabe7-8540-4558-8047-871e334d1b44"/>
+    <managerType typeId="05fd77f8-09dd-485f-8062-fbfae4a3b695" valueTypeId="0affdca9-d196-4b42-8b9c-60f776261378"/>
+    <recordSetType typeId="7f44a73b-dcca-4c36-afe1-d5f7b1790395" valueTypeId="3c791444-a6d1-4e5e-8d14-c3b2e8dc1f77"/>
+    <recordKeyType typeId="54d20db4-3953-44bb-b116-ecacd473cfd4" valueTypeId="5d8da36e-eb47-4fed-b131-c86801ce242c"/>
+    <recordType typeId="431e2854-dd5b-4767-ac42-0896ce021500" valueTypeId="4d856a87-393e-4edf-bfb5-94e255969e82"/>
+    <recordManagerType typeId="7226c20c-8706-46c1-b5a0-7fce8d6ce101" valueTypeId="6fba17c8-3ab3-43f9-8413-4534e12c9f62"/>
+  </producedTypes>
+  <name>СтатусыКурьерскихЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы курьерских заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="bba697a8-dc1f-4cc1-b288-59c1bdb15386">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыКурьерскихЗаявок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="28a7ded1-e094-4bf2-8bb5-4aab82f6509c">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КурьерскаяЗаявка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

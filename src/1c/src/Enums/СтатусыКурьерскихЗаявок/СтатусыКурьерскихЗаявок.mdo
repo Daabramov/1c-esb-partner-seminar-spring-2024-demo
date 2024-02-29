@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9de7611-9ac4-46ed-9723-b5a63ecf1976">
+  <producedTypes>
+    <refType typeId="cc085bd0-1d9c-4b1b-91ab-43649136de0e" valueTypeId="7dd0952f-73a7-4691-a44b-056f06aa1123"/>
+    <listType typeId="da0bd481-c7af-4233-a24c-74215de6ebe9" valueTypeId="83574b06-bb6e-4a9e-8e45-401628faf209"/>
+    <managerType typeId="f1e043c3-a066-4798-8a2f-97c83c0eeff9" valueTypeId="5097d05c-a6fb-43d3-a10d-9e2d7758abb0"/>
+  </producedTypes>
+  <name>СтатусыКурьерскихЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы курьерских заявок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dca8238c-7ab0-490c-8bb8-e304f3afdcf6">
+    <name>Создана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c00dd714-a08d-486f-8ea2-836966df5128">
+    <name>ЖдетНазначенияКурьера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ждет назначения курьера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86e690c8-b576-428c-9c8b-4016454c6395">
+    <name>УКурьера</name>
+    <synonym>
+      <key>ru</key>
+      <value>У курьера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad3d3643-31e5-4142-80fa-b8633a8e20c9">
+    <name>Доставлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a67d2db6-7d68-4976-b5fa-285c32f3bb1b">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

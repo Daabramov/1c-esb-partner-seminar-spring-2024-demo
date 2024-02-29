@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:IntegrationService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce60ca94-2c24-483c-bfbb-04f8d5454fe3">
+  <producedTypes>
+    <managerType typeId="639c7506-aff3-4123-9d3b-d04a67b53b9e" valueTypeId="b12851ad-ee37-43a0-b143-2270e6779f8d"/>
+  </producedTypes>
+  <name>КурьерскиеЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курьерские заявки</value>
+  </synonym>
+  <externalIntegrationServiceAddress>http://localhost:9090/applications/1c-esb-seminar-spring-2024-demo-dev</externalIntegrationServiceAddress>
+  <integrationServiceChannels uuid="15cf89fa-6e28-40c1-bfa7-fc08a8c72035">
+    <producedTypes>
+      <managerType typeId="6d740c1e-6f1a-48ec-b064-095af334c682" valueTypeId="2f1871dd-f612-478c-a54f-3d36416e5071"/>
+    </producedTypes>
+    <name>Основной_КурьерскиеЗаявки_Channel1CSource</name>
+    <externalIntegrationServiceChannelName>Основной::КурьерскиеЗаявки.Channel1CSource</externalIntegrationServiceChannelName>
+    <transactioned>true</transactioned>
+  </integrationServiceChannels>
+</mdclass:IntegrationService>

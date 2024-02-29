@@ -1,0 +1,9 @@
+ВидЭлемента: ФрагментКомандногоИнтерфейса
+Ид: eb07e5f4-9753-4fa8-9f86-1f7ce5bc2292
+ОбластьВидимости: ВПодсистеме
+Имя: НавигацияГлавная
+Элементы:
+   -
+       =Std::IntegrationBus::Interface::NavigationCommandProcesses
+   -
+       =Std::IntegrationBus::Interface::NavigationCommandInfSystems
